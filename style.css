@@ -1,0 +1,50 @@
+
+#article-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+input[type=checkbox] {
+   display:none;
+}
+
+.article {
+  padding: 5px 10px 5px 10px;
+}
+
+.sort-article {
+  display: inline;
+}
+
+.title {
+  display: block;
+  font-family: "Arial",Helvetica,Sans-serif;
+  padding-bottom: 5px;
+  font-weight: bold;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.title:hover {
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.read-more {
+  display: block;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width:500px) {
+  .sort-article {
+    display: block;
+    padding-top: 15px;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+  }
+}

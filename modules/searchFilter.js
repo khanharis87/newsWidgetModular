@@ -5,7 +5,7 @@ var SearchFilter = (function(){
         titles = document.getElementsByClassName('title'),
         contents = document.getElementsByClassName('content')
         regexp = new RegExp(searchText,'i');
-    for (var i = 0; i < titles.length; i++) {
+    for (var i = 0, ii = titles.length; i < ii; i++) {
        var title = titles[i];
        var content = contents[i];
        (title.textContent.search(regexp) < 0 && content.textContent.search(regexp) < 0 ) ?
